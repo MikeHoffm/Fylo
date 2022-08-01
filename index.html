@@ -29,27 +29,34 @@
 
 <!-- Top Half of Main Content -->
   <main>
-    <div class="art-container">
-      <img src="images/illustration-1.svg" class="art" alt="Illustration of customers storing files">
-    </div>
-    <h1>All your files in one secure location, accessible anywhere.</h1>
+    <div class = "content-container">
+      <div class="art-container">
+        <img src="images/illustration-1.svg" class="art" alt="Illustration of customers storing files">
+      </div>
 
-    <p class="blue-p">Fylo stores your most important files in one secure location. 
-    Access them wherever you need, share and collaborate with friends, 
-    family, and co-workers.</p>
-    
-    <div class="btn-container">
-      <input type="email" placeholder="Enter your email...">
-      <button class="btn1">Get Started</button>
+      <div class="content-left">
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+
+        <p class="blue-p">Fylo stores your most important files in one secure location. 
+        Access them wherever you need, share and collaborate with friends, 
+        family, and co-workers.</p>
+        
+        <div class="btn-container">
+          <input type="email" placeholder="Enter your email...">
+          <button class="btn1">Get Started</button>
+      </div>
+      </div>
     </div>
   
     <!-- 2nd Half of Main Content -->
   <img src="images/bg-curve-mobile.svg" class="curve">
   <div class="main-2">
+    <div class="content-container2">
     <div class="art-container">
-      <img src="images/illustration-2.svg" class="art" alt="Illustration of customers sharing files">
+      <img src="images/illustration-2.svg" class="art2" alt="Illustration of customers sharing files">
     </div>
 
+    <div class="content-left">
     <h2>Stay productive, wherever you are</h2>
 
       <p class="left-p">Never let location be an issue when accessing your files. Fylo has you 
@@ -59,7 +66,7 @@
       live collaboration. No email attachments required!</p>
 
   
-        <a href="#">
+        <a href="#" class="fylo-link">
           See how Fylo works
           <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><circle id="b" cx="6" cy="6" r="6"/><filter x="-25%" y="-25%" width="150%" height="150%" filterUnits="objectBoundingBox" id="a"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.239215686 0 0 0 0 0.62745098 0 0 0 0 0.560784314 0 0 0 0.793506567 0" in="shadowBlurOuter1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(2 2)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="#3DA08F" xlink:href="#b"/></g><path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z" fill="#FFF"/></g></svg>
         </a>
@@ -68,38 +75,51 @@
           <img src="images/icon-quotes.svg" class="quotes">
         <h5>Fylo has improved our team productivity by an order of magnitude. Since 
       making the switch our team has become a well-oiled collaboration machine.</h5>
+
         <div class="card-footer">
           <img src="images/avatar-testimonial.jpg" alt="Photo of Kyle Burton" class="kyle-img">
+
           <div class="card-footer-right">
             <h5 class="h5-card">Kyle Burton</h5>
             <p class="p-card">Founder & CEO, Huddle</p>
+          </div>
+          
+          </div>
           </div>
         </div>
       </div>
 
     <!-- FIRST HALF OF FOOTER, SIGN UP -->
     <footer class="footer-1">
-    <h2>Get early access today</h2>
-      <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
-    If you have any questions, our support team would be happy to help you.</p>
+    <div class="footer-container">
+      <div class="footer-left">
+        <h2>Get early access today</h2>
+          <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+        If you have any questions, our support team would be happy to help you.</p>
+      </div>
+      <div class = "btn-container2">
+        <input type="email" placeholder="email@example.com" class="input">
+        <button class="btn2">Get Started For Free</button>
+      </div>
 
-    <div class = "btn-container">
-      <input type="email" placeholder="email@example.com">
-      <button class="btn1">Get Started</button>
-    </div>
+  </div>
+
   </div>
   </main>
 </footer>
 
 <!-- SECOND HALF OF FOOTER -->
   <footer class="footer-2">
+    <div class="footer-container">
+      <div class="footer-left">
     <img src="images/logo.svg" class="fylo-footer" alt="fylo-logo">
    
 
   <nav class="footer-nav">
     <p class="footer-p"><img src="images/icon-phone.svg" alt="phone-icon"> Phone: +1-543-123-4567</p>
     <p class="footer-p"><img src="images/icon-email.svg" alt="email-icon"> example@fylo.com</p>
-
+</div>
+<div class="footer2-right">
     <ul>
       <li href="#">About Us</li>
       <li href="#">Jobs</li>
@@ -112,8 +132,9 @@
       <li href="#">Terms</li>
       <li href="#">Privacy</li>
     </ul>
-  
+  </div>
 </nav>
+</div>
  
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
