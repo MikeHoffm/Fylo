@@ -15,6 +15,11 @@ nav, h1, h3, .btn1 {
     font-family: 'Raleway', sans-serif;
 }
 
+/* INPUT FIELDS */
+input:hover {
+    border: 2px solid red;
+}
+
 /* MOBILE FIRST DESIGN*/
 body {
     font-family: 'Open Sans', sans-serif;
@@ -89,8 +94,11 @@ input {
     padding: 5%; 
 }
 
-/* MAIN CONTENT 2ND HALF */
+.btn1:hover, .btn2:hover {
+    background-color: hsl(224, 100%, 70%);
+}
 
+/* MAIN CONTENT 2ND HALF */
 .curve {
     width: 100%;
     margin: -14px;
@@ -102,11 +110,15 @@ input {
     margin-top: 0;
 }
 
-a{
+.fylo-link {
     margin-top: 6%;
     margin-bottom: 6%;
     color: hsl(170, 45%, 43%);
     text-underline-offset: 40%;
+}
+
+.fylo-link:hover {
+    color: hsl(170, 72%, 69%);
 }
 
 
@@ -168,6 +180,15 @@ h5 {
     padding: 12% 8% 5% 8%;
 }
 
+.input {
+    margin-bottom: 2%;
+    width: 70%;
+}
+
+.btn2 {
+    width: 80%;
+}
+
 /* FOOTER 2 */
 
 .footer-2 {
@@ -196,11 +217,23 @@ h5 {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+    margin-bottom: 5%;
 }
 
 li {
+    text-align: left;
     list-style-type: none;
-    margin-bottom: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover {
+    color: hsl(238, 22%, 44%);
 }
 
 ul {
@@ -263,7 +296,7 @@ ul {
     }
 
     input {
-        padding: 2.5% 23% 2.5% 2.5%;
+        padding: 2.5% 10% 2.5% 2.5%;
     }
     
     .btn1 {
@@ -277,7 +310,6 @@ ul {
      
      img {
          max-width: 100%;
-         /*border: 2px solid red;*/
      }
 
      /* MAIN CONTENT 2ND HALF */
